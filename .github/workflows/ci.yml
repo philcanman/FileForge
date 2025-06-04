@@ -5,6 +5,9 @@ on:
     tags:
       - 'v*'
 
+permissions:
+  contents: write  # This allows the workflow to create releases
+
 jobs:
   build:
     runs-on: ubuntu-latest
