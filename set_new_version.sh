@@ -1,5 +1,5 @@
 #!/bin/bash
-version="1.0.7"
+version="1.0.7.1"
 
 # Prompt for release notes
 echo "Enter release notes (press Ctrl+D when done):"
