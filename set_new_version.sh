@@ -1,5 +1,11 @@
 #!/bin/bash
-version="1.0.7.1"
+
+# Read current version from VERSION file
+current_version=$(cat VERSION)
+
+# Prompt for new version
+echo "Current version is $current_version"
+read -p "Enter new version: " version
 
 # Prompt for release notes
 echo "Enter release notes (press Ctrl+D when done):"
